@@ -15,6 +15,11 @@ pipeline {
         PORT = 8081;
     }
   stages {
-    
-  }
+        stage("One"){
+        // Do Something
+        }
+        stage("Two"){
+        // Do Something
+        }
+    }
 }
